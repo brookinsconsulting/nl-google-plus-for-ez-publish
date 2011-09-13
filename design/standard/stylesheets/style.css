@@ -1,0 +1,80 @@
+.gplus-box {
+	border:5px solid #EEE;
+	margin:5px;
+	padding:15px 5px 5px 5px;
+	font-family: arial, sans-serif;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	
+}
+
+.gplus-box ul {
+	margin:0px;
+	padding:0px;
+}
+
+.gplus-box .feed-author {
+	float:left;
+	display:block;
+	margin:0 10px 10px 0;
+	box-shadow: 5px 5px 5px #888;
+	border-radius: 7px;
+}
+
+.gplus-box .googleplus-logo {
+	float:left;
+	display:block;
+	margin:0 10px 10px 0;
+}
+
+
+.gplus-box .clr {
+	clear:both;
+}
+
+.gplus-box li {
+	list-style-type: none !important;
+	padding:10px 0 15px 0;
+	border-top:1px solid #DDD;
+	background-image:none !important;
+}
+
+.gplus-box a {
+	text-decoration:none;
+}
+
+.gplus-box a:hover {
+	text-decoration:underline;
+}
+
+.gplus-box .title a {
+	color:black;
+}
+
+.gplus-box .author a {
+	color: #36C;
+	font-weight: bold;
+	line-height: 18px;
+}
+
+.gplus-box .date {
+	color: #999;
+}
+
+.gplus-box .activities img {
+	float:left;
+	display:block;
+	margin:0 10px 10px 0;
+}
+
+.gplus-box .replies {
+	margin:5px 0 0 0;
+}
+
+.gplus-box .reshares {
+	margin:5px 0 0 0;
+}
+
+.gplus-box .plusoners {
+	margin:5px 0 0 0;
+}

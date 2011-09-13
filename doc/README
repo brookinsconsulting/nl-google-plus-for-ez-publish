@@ -1,0 +1,18 @@
+=== What is it ? ===
+This extension adds a template operator to easily add a Google+ feed.
+
+=== How to install ? ===
+1. Create "nl_googleplus" directory in your "extension" folder.
+2. Put all files you get (classes, design, modules, settings, etc.)
+3. Activate the extension using admin ezpublish interface, and regenerate autoloads
+4. Go on https://code.google.com/apis/console/, to create your project and activate Google+ API.
+5. Check the nlgoogleplus.ini.append.php to fill settings with api information : ClientId, ClientSecret, DeveloperKey.
+6. You can also feel UserId and MaxResults
+8. Add the template operator in your template : {nlgoogleplus()} or {nlgoogleplus('0123456789')} for a specific userId
+7. Clear all caches.
+
+=== Who is the author ? ===
+Nicolas Lescure
+- nlescure on github : https://github.com/nlescure
+- Google+ : https://plus.google.com/108189603281362876853/
+- twitter : http://twitter.com/nlescure.
