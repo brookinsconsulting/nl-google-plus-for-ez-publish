@@ -8,8 +8,8 @@ This extension adds a template operator to easily add a Google+ feed.
 4. Go on https://code.google.com/apis/console/, to create your project and activate Google+ API.
 5. Check the nlgoogleplus.ini.append.php to fill settings with api information : ClientId, ClientSecret, DeveloperKey.
 6. You can also feel UserId and MaxResults
-8. Add the template operator in your template : {nlgoogleplus()} or {nlgoogleplus('0123456789')} for a specific userId
-7. Clear all caches.
+8. Add the template operator in your template : {nlgoogleplusfeed()} or {nlgoogleplusfeed('0123456789')} for a specific userId
+9. Clear all caches.
 
 === Who is the author ? ===
 Nicolas Lescure
