@@ -25,7 +25,7 @@
 				<a href="{$activity['actor']['url']}">{$activity['actor']['displayName']}</a>
 			</span>
 			
-			<span class="date"> - {*date('d/m/Y h:i',strtotime($activity['published']))*}</span>
+			<span class="date"> - {strtotime($activity['published'])|l10n( 'shortdatetime' )}</span>
 			
 			<div class="replies">{$activity['object']['replies']['totalItems']} {if $activity['object']['replies']['totalItems']|gt(1)}replies{else}reply{/if}</div>
 			<div class="resharers">{$activity['object']['resharers']['totalItems']} {if $activity['object']['resharers']['totalItems']|gt(1)}reshares{else}reshare{/if}</div>
